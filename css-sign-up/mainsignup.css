@@ -112,39 +112,15 @@ a {
   position: relative;
 }
 
-
-.facebook {
+.socialmedia button{
   border-color: rgb(158, 157, 157);
   border-width: .5px;
-  border-radius: 100px;
-  width: 14%;
-  height: 70%;
+  border-radius: 50%;
+  width: 20%;
+  height: 90%;
   background-color: rgba(255, 255, 255, 0.123);
 }
 
-.twitter {
-  border-color: rgb(158, 157, 157);
-  border-width: .5px;
-  border-radius: 100px;
-  width: 14%;
-  height: 70%;
-  background-color: rgba(255, 255, 255, 0.123);
-}
-
-.google {
-  border-color: rgb(158, 157, 157);
-  border-width: .5px;
-  border-radius: 100px;
-  width: 14%;
-  height: 70%;
-  background-color: rgba(255, 255, 255, 0.123);
-}
-
-.linkedin {
-  border-color: rgb(158, 157, 157);
-  border-width: .5px;
-  border-radius: 100px;
-  width: 14%;
-  height: 70%;
-  background-color: rgba(255, 255, 255, 0.123);
+.socialmedia a{
+  color: black
 }
