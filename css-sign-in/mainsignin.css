@@ -5,11 +5,6 @@ h1 {
 
 body{
   display: inline;
-
-}
-
-a {
-  color:rgb(64, 143, 247)
 }
 
 .containerwhole {
@@ -44,7 +39,7 @@ img {
   
 }
 
-#signupbutton {
+.signupbutton button{
   background-color: #0052cc;
   border-width: 2pt;
   border-color: white;
@@ -54,27 +49,28 @@ img {
   margin-left: 35%;
   margin-right: 40%;
   position: relative;
-  color: white;
   font-weight: bold;
 }
 
+a.signupbutton:link {
+  text-decoration: none;
+}
 
-  .container-signin {
-    border-style: none;
-    border-width: .25pt;
-    padding-left: 3%;
-    padding-top: 1%;
-    padding-right: 50%;
-    font-family: Calibri;
-    padding-top: 10%;
-  }
+.container-signin {
+  border-style: none;
+  border-width: .25pt;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-right: 50%;
+  font-family: Calibri;
+  padding-top: 10%;
+}
   
 
 .signinbutton{
   display: grid;
   grid-template-columns: auto 100px;
 }
-
 
 
 .signin {
@@ -85,43 +81,48 @@ img {
   font-weight: bold;
  }
   
-  .firstinput {
-    width: 70%;
-    height: 45px;
-    border-radius: 20px;
-    margin-top: 5%;
-    border-width: .5px;
-    border-color: rgb(209, 211, 212);
-  }
+.firstinput {
+  width: 70%;
+  height: 45px;
+  border-radius: 20px;
+  margin-top: 5%;
+  border-width: .5px;
+  border-color: rgb(209, 211, 212);
+}
   
-  .secinput {
-    width: 70%;
-    height: 45px;
-    border-radius: 20px;
-    border-width: .5px;
+.secinput {
+  width: 70%;
+  height: 45px;
+  border-radius: 20px;
+  border-width: .5px;
+  border-color: rgb(209, 211, 212);
+}
+
+.thirdinput {
+  width: 70%;
+  height: 45px;
+  border-radius: 20px;
+  border-width: .5px;
     border-color: rgb(209, 211, 212);
-  }
+}
 
-  .thirdinput {
-    width: 70%;
-    height: 45px;
-    border-radius: 20px;
-    border-width: .5px;
-    border-color: rgb(209, 211, 212);
-  }
+input {
+  padding: 5px 10px 5px 10px;
+}
 
-
-  #signinbutton {
-    background-color: #0052cc;
-    border-width: .5pt;
-    border-radius: 30px;
-    height:45px;
-    width: 40%;
-    margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 40%;
-    position: relative;
-    color: white
+#signinbutton {
+  background-color: #0052cc;
+  border-width: .5pt;
+  border-radius: 30px;
+  height:45px;
+  width: 40%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 40%;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 
@@ -137,50 +138,24 @@ img {
   width: 150px;
 }
 
-  .socialmedia {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    height: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    position: relative;
-  }
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
   
-  
-  .facebook {
-    border-color: rgb(158, 157, 157);
-    border-width: .5px;
-    border-radius: 220px;
-    width: 20%;
-    height: 90%;
-    background-color: rgba(255, 255, 255, 0.123);
-  }
-  
-  .twitter {
-    border-color: rgb(158, 157, 157);
-    border-width: .5px;
-    border-radius: 100px;
-    width: 20%;
-    height: 90%;
-    background-color: rgba(255, 255, 255, 0.123);
-  }
-  
-  .google {
-    border-color: rgb(158, 157, 157);
-    border-width: .5px;
-    border-radius: 100px;
-    width: 20%;
-    height: 90%;
-    background-color: rgba(255, 255, 255, 0.123);
-  }
-  
-  .linkedin {
-    border-color: rgb(158, 157, 157);
-    border-width: .5px;
-    border-radius: 100px;
-    width: 20%;
-    height: 90%;
-    background-color: rgba(255, 255, 255, 0.123);
-  }
+.socialmedia button{
+  border-color: rgb(158, 157, 157);
+  border-width: .5px;
+  border-radius: 50%;
+  width: 20%;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.123);
+}
 
+.socialmedia a{
+  color: black
+}
